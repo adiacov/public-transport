@@ -9,3 +9,5 @@ lazy val public_transport = (project in file("."))
   .aggregate(pt_api)
 
 lazy val pt_api = (project in file("pt-api"))
+
+lazy val pt_domain = (project in file("pt-domain"))
