@@ -1,0 +1,13 @@
+@startuml
+left to right direction
+
+skinparam packageStyle rectangle
+
+actor User
+actor Server
+
+rectangle CLIENT {
+    User --> (Get\nTimetable)
+    (Update\nTimetable) <-- Server
+}
+@enduml
