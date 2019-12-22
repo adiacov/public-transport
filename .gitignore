@@ -147,7 +147,7 @@ buildNumber.properties
 !/.mvn/wrapper/maven-wrapper.jar
 
 # sbt
-project/
+#project/
 
 # Miscelanious
 info.txt
