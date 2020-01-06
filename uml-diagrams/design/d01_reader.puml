@@ -1,0 +1,10 @@
+@startuml
+
+skinparam componentStyle uml2
+
+interface PTReader
+component "Reader Component" as ReaderComp
+
+PTReader - ReaderComp
+
+@enduml
