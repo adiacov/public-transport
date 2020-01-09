@@ -1,3 +1,7 @@
 package com.adiacov.model
 
-trait RawData[T]
+trait RawData[T] {
+  def id: String
+
+  def items: Vector[RawDataItem[T]]
+}
